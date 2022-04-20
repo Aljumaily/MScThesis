@@ -1,0 +1,11 @@
+hlcd
+hlcd.enums
+hlcd.exceptions
+hlcd.exporter
+hlcd.linearCode
+hlcd.operations
+hlcd.parameters
+hlcd.run
+hlcd.testing.arrayTester
+hlcd.testing.matlabChecker
+hlcd.testing.optimizationTester

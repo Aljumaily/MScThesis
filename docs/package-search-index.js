@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"hlcd"},{"l":"hlcd.enums"},{"l":"hlcd.exceptions"},{"l":"hlcd.exporter"},{"l":"hlcd.linearCode"},{"l":"hlcd.operations"},{"l":"hlcd.parameters"},{"l":"hlcd.run"},{"l":"hlcd.testing.arrayTester"},{"l":"hlcd.testing.matlabChecker"},{"l":"hlcd.testing.optimizationTester"}];updateSearchResults();
