@@ -1,5 +1,3 @@
-﻿[comment]: <> (This is a comment, it will not be included)
-
 # Java - Finding Optimal Quaternary Hermitian Linear Complementary Dual Codes
 
 **This Java program is a part of
@@ -8,7 +6,8 @@ submitted by Maysara Al Jumaily (aljumaily.maysara@gmail.com) created to find
 optimal Hermitian Linear Complementary Dual (LCD) for Entanglement-Assisted
 Quantum Error Correction (EAQEC) codes (EAQECC).**
 
-- A `.pdf` version of this page is found here:
+- A `.pdf` version of this page is found
+  [here](https://github.com/Aljumaily/MScThesis/blob/master/README.pdf)
 - The thesis is attached on GitHub and can be accessed from
   [here](https://github.com/Aljumaily/javadocs/blob/master/MSc_Thesis_Manuscript_Errata.pdf)
 - The errata sheet of the thesis manuscript is attached on GitHub and can be
