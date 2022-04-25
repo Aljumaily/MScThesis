@@ -422,7 +422,7 @@ This explains how to generate JavaDoc using IntelliJ.
   used from here). Write the following in `options` and make sure each option is
   a single line without a linebreak (note that the file paths are absolute using
   Windows but refer to the
-  [official documents](docs.oracle.com/javase/9/javadoc/javadoc-command.htm) for
+  [official documents](https://docs.oracle.com/javase/9/javadoc/javadoc-command.htm) for
   other operating systems and pay close attention to `\\` and `//` versus `\`
   and `/`):
     - There is a
