@@ -9,10 +9,10 @@ Quantum Error Correction (EAQEC) codes (EAQECC).**
 - A `.pdf` version of this page is found
   [here](https://github.com/Aljumaily/MScThesis/blob/master/README.pdf)
 - The thesis is attached on GitHub and can be accessed from
-  [here](https://github.com/Aljumaily/javadocs/blob/master/MSc_Thesis_Manuscript_Errata.pdf)
+  [here](https://github.com/Aljumaily/MScThesis/blob/master/MSc_Thesis_Manuscript_Errata.pdf)
 - The errata sheet of the thesis manuscript is attached on GitHub and can be
   accessed from
-  [here](https://github.com/Aljumaily/javadocs/blob/master/MSc_Thesis_Manuscript_Errata.pdf)
+  [here](https://github.com/Aljumaily/MScThesis/blob/master/MSc_Thesis_Manuscript_Errata.pdf)
 - This is the initial release of the first version
     - In the meantime, there is no plan to release a second version
     - Please report (via email) any _major_ bugs encountered in the program
@@ -25,15 +25,15 @@ Quantum Error Correction (EAQEC) codes (EAQECC).**
 - The program uses Java 8 (for the code) and Java 16 for the code  (use Java 16
   to have everything work as expected)
 - The source code is found
-  [here](https://github.com/Aljumaily/javadocs/tree/master/hlcd-project)
+  [here](https://github.com/Aljumaily/MScThesis/tree/master/hlcd-project)
 - The documentation of this program is done _very_ professionally and can be
   accessed
-  through [https://aljumaily.github.io/javadocs/](https://aljumaily.github.io/javadocs/)
+  through [https://aljumaily.github.io/MScThesis/](https://aljumaily.github.io/MScThesis/)
 - The
   [IntelliJ IDEA 2021.2.4 (Community Edition)](https://www.jetbrains.com/idea/download/)
   IDE was used to complete the code
 - A `.zip` file of the IntelliJ project can be accessed from
-  [here](https://github.com/Aljumaily/javadocs/blob/master/hlcd-project.zip)
+  [here](https://github.com/Aljumaily/MScThesis/blob/master/hlcd-project.zip)
     - It will help with rendering LaTeX in the JavaDocs and add syntax
       highlighting to the code snippets
 
@@ -392,12 +392,12 @@ There are multiple tests implemented to ensure the validity of the program:
 - To run _multiple_ parameters, run `ListExecutor` and ensure the parameter list
   file and `PARAMETERS_PATH` are setup correctly (an example of the parameter
   list can be found
-  [here](https://github.com/Aljumaily/javadocs/blob/master/hlcd-project/src/optimalParameters.txt))
+  [here](https://github.com/Aljumaily/MScThesis/blob/master/hlcd-project/src/optimalParameters.txt))
 
 ### Setting up the IntelliJ project:
 
 - As mentioned earlier, the `.zip` file of the project can be found
-  [here](https://github.com/Aljumaily/javadocs/blob/master/hlcd-project.zip)
+  [here](https://github.com/Aljumaily/MScThesis/blob/master/hlcd-project.zip)
 - Once downloaded, open the `.zip` file and extract the single folder found onto
   the Desktop
 - Open IntelliJ
@@ -417,7 +417,7 @@ This explains how to generate JavaDoc using IntelliJ.
 - To generate the default JavaDoc (use the shortcut <kbd>CTRL + G</kbd>) or
   navigate to Tools &#8594; Generate JavaDoc
 - To generate customized Javadocs, download the `stylesheet.css` file from
-  [here](https://github.com/Aljumaily/javadocs/blob/master/hlcd-project/out/production/hlcd-project/javadocs-tools/stylesheet.css)
+  [here](https://github.com/Aljumaily/MScThesis/blob/master/hlcd-project/out/production/hlcd-project/javadocs-tools/stylesheet.css)
   then create a file named `options` without an extension (can find the file
   used from here). Write the following in `options` and make sure each option is
   a single line without a linebreak (note that the file paths are absolute using
@@ -446,7 +446,7 @@ This explains how to generate JavaDoc using IntelliJ.
     - In the generated Javadoc folder, there is a `script.js` file. Open it and
       at the very end, append the code found in `syntax-highlighter.txt` that is
       accessed
-      from [here](https://github.com/Aljumaily/javadocs/blob/master/hlcd-project/out/production/hlcd-project/javadocs-tools/syntax-highlighter.txt)
+      from [here](https://github.com/Aljumaily/MScThesis/blob/master/hlcd-project/out/production/hlcd-project/javadocs-tools/syntax-highlighter.txt)
 
 </details>
 
