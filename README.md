@@ -392,7 +392,7 @@ There are multiple tests implemented to ensure the validity of the program:
 - To run _multiple_ parameters, run `ListExecutor` and ensure the parameter list
   file and `PARAMETERS_PATH` are setup correctly (an example of the parameter
   list can be found
-  [here](https://github.com/Aljumaily/MScThesis/blob/master/hlcd-project/src/optimalParameters.txt))
+  [here](https://github.com/Aljumaily/MScThesis/blob/master/hlcd-project/optimalParameters.txt))
 
 ### Setting up the IntelliJ project:
 
