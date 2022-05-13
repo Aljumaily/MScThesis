@@ -169,7 +169,7 @@ public class LatexWeightEnumeratorWriter {
         String d = String.format("%02d", cp.getD());
         String hlcdStatus = cp.isHLCD() ? "H" : "";
         filename = "WeightEnumerator_" + n + "_" + k + "_" + d + "_" +
-                           hlcdStatus + "_" + cp.getBase();
+                hlcdStatus + "_" + cp.getBase();
         if (!id.equals("")) {
             filename = filename + "_ID_" + id;
         }
@@ -199,23 +199,23 @@ public class LatexWeightEnumeratorWriter {
             if (id.equals("")) {
                 optionalArgument = "[]";
                 pen.write("% The weight enumerator of " + cp + " created " +
-                                  "at: " + timestamp);
+                        "at: " + timestamp);
 
             } else {
                 optionalArgument = "[" + id + "]";
                 pen.write("% The weight enumerator of " + cp + " with id " +
-                                  id + " is created at: " + timestamp);
+                        id + " is created at: " + timestamp);
             }
             pen.newLine();
             requiredArguments = "{" + cp.getN() + "}"
-                                        + "{" + cp.getK() + "}" + "{" + cp.getD() + "}";
+                    + "{" + cp.getK() + "}" + "{" + cp.getD() + "}";
             beginEnv = "\\begin{" + envName + "}" +
-                               optionalArgument + requiredArguments;
+                    optionalArgument + requiredArguments;
             endEnv = "\\end{" + envName + "}";
             pen.write(beginEnv);
             pen.newLine();
             ////////////////////////////////////////////////////////////////////
-            //\begin{weightEnumerator}[1]{G}{15}{6}{7}
+            //for example: \begin{weightEnumerator}[1]{G}{15}{6}{7}
             long[] codeWeights = weightEnumerator.getWeightEnumerator();
             StringBuilder result = new StringBuilder();
             for (byte i = 0; i < codeWeights.length; i++) {
@@ -226,6 +226,12 @@ public class LatexWeightEnumeratorWriter {
                         result.append("\\,+\\,");
                     }
                 }
+            }
+            //if result ends with the text "\,+\,", remove the last five chars
+            String temp = result.toString();
+            if (temp.endsWith("\\,+\\,")) {
+                temp = temp.substring(0, temp.length() - 5);
+                result = new StringBuilder(temp);
             }
             result.append("\n");
             pen.write("\t" + result);
@@ -256,12 +262,12 @@ public class LatexWeightEnumeratorWriter {
         if (power == 0) {
             if (constant != 1) {
                 System.out.println("Warning: the code seems to have more than" +
-                                           " 1 vector of weight 0.");
+                        " 1 vector of weight 0.");
             }
             result = constant + "";
         } else {
             result = " \\numprint{" + constant + "}" + variable + "^{" + power
-                             + "}";
+                    + "}";
         }
         return result;
     }

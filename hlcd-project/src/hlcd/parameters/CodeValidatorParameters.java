@@ -41,7 +41,8 @@ public class CodeValidatorParameters implements Serializable {
 
     /**
      * Checks if all codewords in the code are unique and that there doesn't
-     * exist duplicates in the codewords.
+     * exist duplicates in the codewords. This also takes a long time to
+     * complete.
      */
     private boolean checkUniqueness;
 
@@ -75,7 +76,7 @@ public class CodeValidatorParameters implements Serializable {
         this.checkZeroVectors = true;
         this.replicateLinearCombinations = true;
         this.checkValidMinimumDistance = true;
-        this.checkUniqueness = true;
+        this.checkUniqueness = true;//can be false (takes too much time)
         this.checkHLCDProperty = false;
         this.printInvalidEntries = false;
         this.stopWhenFalseEncountered = true;

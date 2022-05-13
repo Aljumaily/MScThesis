@@ -1,5 +1,9 @@
 //Write a comment starting the line with two slashes
 //OR, write the parameters and two slashes, as such:
+//10, 5, 3 // some text...
+//Note that invalid entries will crash the program
+//Write a comment starting the line with two slashes
+//OR, write the parameters and two slashes, as such:
 //n, k, d // some text...
 //Note that invalid entries will crash the program
 3, 1, 3

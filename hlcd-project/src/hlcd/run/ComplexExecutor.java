@@ -46,8 +46,9 @@ public class ComplexExecutor {
         boolean checkZeroVectors = true;
         boolean replicateLinearCombinations = true;
         boolean checkValidMinimumDistance = true;
-        boolean checkUniqueness = true;
-        boolean checkHLCDProperty = false;//should always be kept as false.
+        boolean checkUniqueness = true;//can be false (takes time)
+        //checkHLCDProperty should always be kept as false (takes too much time)
+        boolean checkHLCDProperty = false;
         boolean printInvalidEntries = true;
         boolean stopWhenFalseEncountered = true;
 

@@ -3,6 +3,6 @@
 --main-stylesheet "C:\\hlcd-project\\src\\javadocs-tools\\stylesheet.css"
 -doctitle "<h1>Hermitian Linear Complementary Dual Codes</h1>"
 -windowtitle 'HLCD Javadoc'
--bottom '<div style="text-align:center"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/><br/>This work is licensed under a <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br/>first name last name &copy; year<br/></div>'
+-bottom '<div style="text-align:center"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/><br/>This work is licensed under a <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br/>Maysara Al Jumaily &copy; 2022<br/></div>'
 -overview "C:\\hlcd-project\\src\\javadocs-tools\\overview.html"
 --allow-script-in-comments -header "<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">MathJax = {tex: { inlineMath: [['\\\\(', '\\\\)']], displayMath: [['\\\\[', '\\\\]'], ['\\begin{equation}', '\\end{equation}']], digits: /^(?:[0-9]+(?:\\{,\\}[0-9]{3})*(?:\\.[0-9]*)?|\\.[0-9]+)/,}};</script>"

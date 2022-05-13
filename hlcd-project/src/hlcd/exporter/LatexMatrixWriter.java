@@ -241,6 +241,7 @@ public class LatexMatrixWriter {
                         matrixArray[i], n, base, " & ", Style.LATEX
                 );
                 pen.write("\t" + row);
+                pen.write("\\\\");//newline in LaTeX matrix
                 pen.newLine();
             }
 

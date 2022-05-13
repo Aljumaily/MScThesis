@@ -82,8 +82,8 @@ public class ListExecutor {
 
             PrintWriter writer = new PrintWriter(file, true);
 
-            ParametersLoader opl = new ParametersLoader(parameterPath, offset);
-            LinkedList<CodeParameters> parameters = opl.getParameters();
+            ParametersLoader pl = new ParametersLoader(parameterPath, offset);
+            LinkedList<CodeParameters> parameters = pl.getParameters();
 
             for (int i = 0; i < parameters.size(); i++) {
                 CodeParameters p = parameters.get(i);
